@@ -83,13 +83,14 @@ nav > a.linknav:hover{
 .paragrafoperfil{
 	background-color: white;
 	color: black;
-	width: 700px;
+	width: 900px;
 	font-size: 20px;
 	text-align: justify;
 	padding: 10px;
 	margin: auto;
 	border-radius: 0px 0px 20px 20px;
-
+	text-indent: 1.5em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .imagensadvogados{
 	display: inline-block;
@@ -101,6 +102,22 @@ nav > a.linknav:hover{
 	color: black;
 	width: 100px;
 	height: 30px;
+}
+#saibaMais{
+	background-color: white;
+	color: black;
+	width: 900px;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px;
+	margin: auto;
+	border-radius: 0px 0px 20px 20px;
+	text-indent: 1.5em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#saibaMais p{
+	text-align: justify;
+	padding: 10px;
 }
 #h1servicos{
 	background-color: white;
@@ -142,3 +159,65 @@ footer{
 footer p a:hover{
 	text-decoration: underline;
 }
+.hide{
+	display: none;
+}
+
+  
+  main h2 {
+	text-align: center;
+  }
+  
+  @font-face {
+	font-family: "estrela";
+	src: url(icomoon.woff);
+  }
+  
+  .elemento { 
+	display: flex;
+   }
+  
+  .star {
+	font-family: "estrela" !important;
+	font-size: 80px; 
+	color: #d1d1d1;
+	font-style: normal; 
+	font-weight: normal; 
+	font-variant: normal;
+	text-transform: none; 
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	cursor: pointer;
+  }
+  
+  .star::before { 
+	content: "\e9d9"; 
+  }
+  .star.off {
+  pointer-events: none;
+  }
+  
+  #msg {
+	margin-top: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bolder;
+	text-align: center;
+  }
+  
+  #btn {
+	margin-top: 20px;
+	text-align: center;
+  }
+  
+  #btn button {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bolder;
+	cursor: pointer;
+  }
+#a{
+	text-align: center;
+}	
+  

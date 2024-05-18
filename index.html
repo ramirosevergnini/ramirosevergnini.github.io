@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 		<title>Minha página de teste</title>
 		<link href="estilo.css" rel="stylesheet"/>
-		<script src ="scripts/main.js"></script>
 	</head>
 	<body>
 		<header>
@@ -17,7 +17,7 @@
 				</div>
 			</div>	
 		</header>
-		<body>
+		<main>
 			<nav>
 				<a class="linknav" href="index.html">Início</a>
 				<a class="linknav" href="#loc">Localização</a>
@@ -48,7 +48,21 @@
 			garantir o sucesso de seus empreendimentos legais.
 			</p>
 	
-			<button id="bottom">SAIBA MAIS ></button>
+			<button id="bottom" onclick="mostrarInformacoes()">SAIBA MAIS</button>
+			
+			<div id="saibaMais" class="hide">
+				<p> Na RadyAdvocacia, nossa missão é fornecer orientação legal confiável e soluções
+					jurídicas eficazes para nossos clientes. Com uma equipe de advogados dedicados e
+					experientes, estamos comprometidos em oferecer assistência jurídica abrangente em 
+					uma variedade de áreas, desde direito civil e penal até direito de família e
+					empresarial. Nosso objetivo é não apenas atender às necessidades legais de nossos
+					clientes, mas também superar suas expectativas, proporcionando um serviço
+					personalizado e eficiente. Ao escolher a RadyAdvocacia, você pode ter
+					certeza de que terá um parceiro jurídico de confiança ao seu lado, trabalhando
+					incansavelmente para proteger seus interesses e alcançar os melhores resultados
+					possíveis em todas as suas questões legais.</p>
+			</div>
+
 			<h1 id="h1servicos"> Nossos Serviços </h1>
 			<ol id="servicos">
 				<li>Direito do Consumidor</li>
@@ -64,11 +78,21 @@
 			Somos os guardiões da equidade, <br> os defensores incansáveis dos direitos, e cada causa que abraçamos é uma batalha pela
 			justiça e pela verdade."</h4>
 	
-		</body>
+			<div id="avaliacao">
+				<h2> AVALIA O SITE!</h2>
+				<div id="a">
+					<div id="avaliar"></div>
+				</div>
+				<div id="msg"></div>
+				<div id="btn"></div>
+			</div>
+
+		</main>
 		<footer>
 			<p>
 				Site criado por <a href="https://www.instagram.com/ramirosvz/">Ramiro Severgnini</a> e <a href="https://wa.me/5554993388649">Sady Antonio</a>
 			</p>
 		</footer>
+		<script src ="scripts/main.js"></script>
 	</body>
 </html>
